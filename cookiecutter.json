@@ -1,0 +1,9 @@
+{
+    "project_title": "Cookiecutter Personal",
+    "project_slug": "{{ coockiecutter.project_title.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_description": "Add description for file: ",
+    "project_author_name": "Add your name",
+    "project_mail": "Add your mail",
+    "project_packages": ["All, Minimal"],
+    "python_version": "3.9"
+}
