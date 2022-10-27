@@ -1,9 +1,13 @@
 {
-    "project_title": "Cookiecutter Personal",
-    "project_slug": "{{ coockiecutter.project_title.lower().replace(' ', '_').replace('-', '_') }}",
-    "project_description": "Add description for file: ",
-    "project_author_name": "Add your name",
-    "project_mail": "Add your mail",
-    "project_packages": ["All, Minimal"],
-    "python_version": "3.9"
-}
+    "project_name": "Cookiecutter Personal",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_author_name": "Your name (or your organization/company/team)",
+    "project_author_email": "Yout email (or your organization/company/team)",
+    "project_description": "A short description of the project.",
+    "project_packages": [
+      "All",
+      "Minimal"
+    ],
+    "python_version": "3.9",
+    "project_version": "0.1.0"
+  }
