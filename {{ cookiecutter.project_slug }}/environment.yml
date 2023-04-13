@@ -10,6 +10,9 @@ dependencies:
   - jupyter
   - jupyterlab
   - pathlib
+  - numpy
+  - scikit-learning
+  - pyspark
   {% endif -%}
   - pip
   {% if cookiecutter.project_packages == "All" -%}
